@@ -8,5 +8,11 @@ int complex(int inter1, int inter2)
   tp1 = tp2 - tp1 + tp2%tp1; /*Added by Kyle for CHG-TEST02*/
   tp1 = tp2 - tp1*20; /*Added by Kyle for CHG-TEST03*/
   tp2 = tp1 + tp2*(tp1 - tp2); /*Added by Kyle for CHG-TEST04*/
+
+  /*Begin added by Kyle for CHG-TEST05*/
+  int tp3 = tp2*tp1 + tp1%tp2 - tp2%tp1;
+  tp2 = (tp3 + tp2)%tp1;
+  /*Begin added by Kyle for CHG-TEST05*/
+  
   return (tp2 - tp1);
 }
