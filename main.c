@@ -8,6 +8,7 @@ void main(void)
   int tp1 = add(it1, it2);
   int tp2 = sub(it2, it1);
   int tp3 = complex(it1, it2);
+  tp3 = tp2 + tp1; /*Added by Kyle for CHG-TEST04*/
   printf("The tp1 is %d \n", tp1);
   printf("The tp2 is %d \n", tp2);
   printf("The tp3 is %d \n", tp3);
