@@ -1,4 +1,4 @@
-#inlcude "head.h"
+#include "head.h"
 
 int complex(int inter1, int inter2)
 {
