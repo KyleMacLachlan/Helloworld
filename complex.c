@@ -19,6 +19,10 @@ int complex(int inter1, int inter2)
   tp2 = tp2*tp1*(tp2 + tp1)%tp1; /*Added by Kyle for CHG-TEST05*/
 
   tp3 = tp2 + tp1*tp2%tp1; /*Added by Kyle for CHG-TEST06*/
+
   tp2 = tp1*100 - tp2%tp1 + tp1*20; /*Added by Kyle for CHG-TEST07*/
+
+  tp1 = (tp2 + tp1)%10 + tp2*176 - tp1%32; /*Added by Kyle for CHG-TEST08*/
+
   return (tp2 - tp1);
 }
