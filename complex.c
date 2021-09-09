@@ -1,5 +1,6 @@
 #include "head.h"
 /*Test by conf 01 added by kyle*/
+/*Added by kyle for test of conf02*/
 int complex(int inter1, int inter2)
 {
   int tp1 = add(inter1, inter2);
